@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Był sobie pomysł...</title>
+    <meta name="description" content="Ręcznie robione upominki">
+    <meta name="keywords" content="kartki, rękodzieło, upominki">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script|Open+Sans|Source+Sans+Pro&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+    <script>
+        jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			$('.link1').click(function() { $.scrollTo($('#home'), 1000); });
+			$('.link2').click(function() { $.scrollTo($('#aboutme'), 1000); });
+			$('.link3').click(function() { $.scrollTo($('#offer'), 1000); });
+			$('.link4').click(function() { $.scrollTo($('#gallery'), 1000); });
+            $('.link5').click(function() { $.scrollTo($('#contact'), 1000); });
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+        
+	</script>
+</head>
+
+<body id="body">
+    <div class="container_page">
+        <header id="home">
+            <div class="nav-bar">
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <div class="icon-box">
+                        <a href="https://www.facebook.com/bylsobiepomysl/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://m.me/bylsobiepomysl?fbclid=IwAR0nUUjV4wM_v_6pKs6NzTwEmWDEEWXcZ-I4YFneU0_2cmOnYMO8OJV1hyE"><i class="fab fa-facebook-messenger"></i></a>
+                        <a href="https://www.instagram.com/hunter_65_ben/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainmenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link link1" href="#home"> Start </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link2" href="#aboutme"> O mnie </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link3" href="#offer"> Oferta </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link4" href="#gallery"> Galeria </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link5" href="#contact"> Kontakt </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="logo-wrapper">
+                <img class="img-logo" src="img/logo.png">
+                <h1 class="header-title">Kartki i upominki na każdą okazje</h1>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <section id="aboutme">
+                    <header>
+                        <h1 class="aboutme_title">Był sobie pomysł...
+                        </h1>
+                        <p class="aboutme_p">Scrapbooking z pasją</p>
+                    </header>
+                    <div class="aboutme-wrapper">
+                        <div class="aboutme_info">
+                           <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <h1>Kilka słów o mnie</h1>
+                            <p>Witaj na mojej stronie!
+                                Nazywam się Eliza i tworzę w <span class="aboutme_info_p_span">Był sobie Pomysł.</span>
+                                Z zawodu jestem nauczycielem wczesnoszkolnym i tym się zajmuję zawodowo. Jednak moją drugą miłością jest tworzenie niepowtarzalnych pamiątek. Scrapbookingiem zajmuję się stosunkowo krótko, ale intensywnie. Wykonywane przeze mnie pamiątki są niepowtarzalne, jedyne w swoim rodzaju. Jeżeli znalazłeś się na mojej stronie to znaczy, że czegoś takiego właśnie poszukujesz. Czegoś, co stanie się częścią najpiękniejszych wspomnień.
+                                Serdecznie zapraszam do zapoznania się z moją ofertą, chętnie odpowiem na wszelkie wątpliwości.
+                                <span class="aboutme_info_p_span">Eliza Matejczyk - Był sobie Pomysł.</span></p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="aboutme_img">
+                                <div class="img_text">
+                                    <p><span class="img_text_span">&ldquo;</span>Był sobie Pomysł, a z pomysłu zrobiła się pasja i miłość do tworzenia. <span class="img_text_span">&bdquo;</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="offer">
+                    <header>
+                        <h1 class="offer-title">Moja oferta</h1>
+                        <p class="offer-p">Zapraszam do zapoznania się z ofertą</p>
+                    </header>
+                    <div class="offer-wrapper">
+                       <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img class="offer_img" src="img/oferta.jpg">
+                        </div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div id="accordion">
+
+                            <div class="card">
+                                <div class="card-header">
+
+                                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                        <p>Exploding Box'y</p>
+
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="card-body_p">Exploding boxy czyli podziękowania, pamiątki, w formie pudełeczka, którego boczne strony rozkładają się po zdjęciu wieczka. Idealnie nadają się jako pamiątka, czy też podziękowanie na każdą okazję, m.in. chrzty, śluby, urodziny, imieniny itp. Bardzo często wykorzystywane są także jako prośby o świadkowanie na ślubie, bądź chrzcie. Ceny rozpoczynają się od 25zł i uzależnione są od wymagań zamawiającego.</p>
+                                        <span class="card-body_span" onclick="toggle1('divContent1')">Zobacz przykład</span>
+                                        <img id="divContent1" src="img/explo.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                        <p>Zaproszenia<p>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="card-body_p">Zaproszenia na każdą okazję; urodziny, imieniny, jubileusze, śluby, chrzty itp. Ceny rozpoczynają się od 2zł/szt i uzależnione są od wymagań zamawiającego.</p>
+                                        <span class="card-body_span" onclick="toggle2('divContent2')">Zobacz przykład</span>
+                                        <img id="divContent2" src="img/zapro.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                        <p>Oprawa ślubna</p>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="card-body_p">Obecnie bardzo modnym, ale też eleganckim rozwiązaniem jest utrzymanie jednolitej tematyki począwszy od zaproszeń, na podziękowaniach dla gości i świadków kończąc. Był sobie Pomysł zapewnia taką możliwość wykonując wedle indywidualnego projektu całą „oprawę” ślubną: zaproszenia, winietki, zawieszki na alkohol, plan usadzenia gości, numery stołów, podziękowania dla gości, podziękowania dla rodziców i świadków, księgi gości, pudła na koperty, top pery na babeczki i torty i wiele, wiele innych. Koszty takiej kompleksowej obsługi ustalane są indywidualnie.</p>
+                                        <span class="card-body_span" onclick="toggle3('divContent3')">Zobacz przykład</span>
+                                        <img id="divContent3" src="img/opra.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                                        <p>Kartki okolicznościowe</p>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="card-body_p">Utrwalajmy wspomnienia pięknymi, uroczymi, czy zabawnymi kartkami okolicznościowymi. W mojej ofercie znajdą Państwo szeroki wachlarz wzorów i możliwości począwszy od kartek minimalistycznych, prostych i subtelnych, poprzez zabawne i tematyczne, na bogato zdobionych w stylu glamour kończąc. Możliwość zamówienia kartek w dowolnych formatach, w pudełkach lub kopertach. Ceny kartek okolicznościowych w kopertach od 10zł, ceny kartek w pudełkach od 20zł.</p>
+                                        <span class="card-body_span" onclick="toggle4('divContent4')">Zobacz przykład</span>
+                                        <img id="divContent4" src="img/kart.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                                        <p>Inne</p>
+                                    </a>
+                                </div>
+                                <div id="collapseFive" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="card-body_p">Jeśli masz pomysł, który chcesz zrealizować, ale brak Ci sprzętu, materiałów, czy możliwości napisz śmiało, chętnie stworzę coś specjalnie dla Ciebie!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <section id="gallery">
+            <div class="gallery-wrapper">
+                <header class="gallery-header">
+                    <h1 class="gallery-title">Galeria</h1>
+                    <p class="gallery_p">Moje prace</p>
+                </header>
+                <div class="container-gallery">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-6">
+                            <a href="exploding.html">
+                                <div class="tiles">
+                                    <img src="img/galeria2/exploding.jpg" class="tiles-img fluid-img" alt="exploding boxy">
+                                    <p class="tiles-text">Exploding Box'y</p>
+                                </div>
+                            </a>
+                            <a href="zaproszenia.html">
+                                <div class="tiles">
+                                    <img src="img/galeria2/zaproszenia.jpg" class="tiles-img" alt="zaproszenia">
+                                    <p class="tiles-text">Zaproszenia</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-6">
+                            <a href="oprawa.html">
+                                <div class="tiles">
+                                    <img src="img/galeria2/oprawa.jpg" class="tiles-img" alt="oprawa ślubna">
+                                    <p class="tiles-text">Oprawa ślubna</p>
+                                </div>
+                            </a>
+                            <a href="kartki.html">
+                                <div class="tiles">
+                                    <img src="img/galeria2/kartki.jpg" class="tiles-img" alt="kartki okolicznościowe">
+                                    <p class="tiles-text">Kartki okolicznościowe</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="contact-wrapper">
+                <header>
+                    <div class="contact_header_wrapper">
+                        <h1>Kontakt</h1>
+                        <p>Możesz sie zemną skontaktować za pomocą mediów społeczniowych lub pod adresem <strong>elizamat90@wp.pl</strong> </p>
+                    </div>
+                </header>
+                <a href="https://www.facebook.com/bylsobiepomysl/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://m.me/bylsobiepomysl?fbclid=IwAR0nUUjV4wM_v_6pKs6NzTwEmWDEEWXcZ-I4YFneU0_2cmOnYMO8OJV1hyE"><i class="fab fa-facebook-messenger"></i></a>
+                <a href="https://www.instagram.com/hunter_65_ben/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+        <footer class="footer-bottom">
+            <p>&copy;Był sobie pomysł 2018</p>
+        </footer>
+    </div>
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 5,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+</body>
+
+</html>

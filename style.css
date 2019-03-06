@@ -1,0 +1,1134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: #3e4155;
+    overflow-x: hidden;
+}
+
+.container_page {
+    width: 1680px;
+    margin: 0 auto;
+    background-image: url(img/45degreee_fabric.png);
+    /*This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ */
+}
+
+
+/* NAVIGATION*/
+
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 2;
+    width: 1680px;
+}
+
+.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #87677B;
+    padding: 0 20px;
+}
+
+/* header page*/
+#home {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-wrapper {
+    width: 1660px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 70px;
+    right: 10%;
+}
+
+.header-title {
+    position: absolute;
+    top: 200px;
+    width: 50%;
+    left: 0;
+    text-align: center;
+    color: #a15b7f;
+    font-size: 45px;
+}
+
+.icon-box {
+    left: 20px;
+    top: 9px;
+}
+
+.icon-box i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #99627f;
+}
+
+.icon-box i:hover {
+    color: #e7bed0;
+}
+
+/* ABOUT ME*/
+#aboutme {}
+
+.aboutme-wrapper {
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+.aboutme_info {
+    width: 40%;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.aboutme_info_p_span {
+    color: #99627f;
+}
+
+.aboutme_title,
+.offer-title,
+.gallery-title {
+    font-size: 65px;
+    color: #9a5f7d;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 100px 0 10px 0;
+    text-align: center;
+}
+
+.aboutme_p,
+.offer-p,
+.gallery_p {
+    text-align: center;
+    color: #696969;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.aboutme_info h1 {
+    color: #9f5e7e;
+    margin-bottom: 30px;
+}
+
+.aboutme_info p {
+    color: #343434;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.aboutme_img {
+    background-image: url(img/aboutimg.png);
+    background-size: cover;
+    width: 645px;
+    height: 456px;
+}
+
+.img_text {
+    margin: 20px;
+    padding: 30px 5px 5px 5px;
+    position: relative;
+    top: 150px;
+    background-color: #ffffff;
+    opacity: 0.9;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120%;
+    font-family: 'Marck Script', cursive;
+    color: #98456d;
+}
+
+.img_text_span {
+    font-size: 70px;
+    color: #764574;
+}
+
+/*OFFER*/
+#offer {}
+
+.offer-wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px 0 100px;
+    border-bottom: 1px solid #d1d0d0;
+    padding-bottom: 150px;
+}
+
+#accordion {
+    width: 600px;
+    margin-top: 20px;
+}
+
+.offer_img {
+    width: 645px;
+    height: 456px;
+}
+
+.card-header {
+    height: 55px;
+}
+
+.card {
+    text-align: center;
+    margin: 20px 50px;
+    background-color: #bc7f9f;
+    -webkit-box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.32);
+}
+
+.fas {
+    font-size: 50px;
+}
+
+.card-body {
+    background-color: #f0f0f0;
+    height: auto;
+}
+
+.card-body_p {
+    text-align: justify;
+    font-size: 16px;
+    color: #454545;
+}
+
+.card-link p {
+
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+#divContent1,
+#divContent2,
+#divContent3,
+#divContent4 {
+    display: none;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card-body_span {
+    text-decoration: underline;
+    color: #a15b7f;
+    cursor: pointer;
+}
+
+.card-link p:hover {
+    color: #87677B;
+}
+
+/*GALLERY*/
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+.tiles {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin: 0 auto 30px auto;
+
+}
+
+.container-gallery {
+    margin: 100px auto 200px auto;
+    width: 900px;
+}
+
+.tiles-img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.tiles-img:hover {
+    filter: brightness(100%);
+}
+
+.tiles-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gallery-image {
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+/*CONTACT*/
+.contact-wrapper {
+
+    height: auto;
+    text-align: center;
+    background-image: url(img/contactbg2.png);
+    background-size: cover;
+}
+
+.contact_header_wrapper {
+    background-color: #ffffff;
+    height: auto;
+    width: 55vw;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 50px;
+    opacity: 0.7;
+}
+
+.contact-wrapper h1 {
+    color: #2f2f2f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.contact-wrapper p {
+    color: #222222;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 30px;
+}
+
+.contact-wrapper i {
+    margin: 100px 20px;
+    font-size: 60px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    transition: all .3s linear;
+}
+
+.fa-facebook-square:hover {
+    color: #2a4897;
+    transform: scale(1.1);
+}
+
+.fa-facebook-messenger {
+    color: #0084ff;
+    transition: all .3s linear;
+}
+
+.fa-facebook-messenger:hover {
+    color: #0073ee;
+    transform: scale(1.1);
+}
+
+.fa-instagram {
+    color: #e1306c;
+    transition: all .3s linear;
+}
+
+.fa-instagram:hover {
+    color: #d0205b;
+    transform: scale(1.1);
+}
+
+.footer-bottom p {
+    text-align: center;
+    margin: 1px 0 0 0;
+    font-size: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container-gallery {
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+    .tiles {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .tiles-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-fluid {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .container_page {
+        width: 100vw;
+    }
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        padding: 2px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding: 5px 20px;
+    }
+
+    .icon-box {
+        top: 16px;
+    }
+
+    .icon-box i {
+        font-size: 30px;
+    }
+
+    #home {
+        height: 350px;
+    }
+
+    .header-title {
+        width: 100vw;
+        font-size: 1.3rem;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img-logo {
+        width: 95vw;
+        height: 200px;
+        top: 90px;
+        right: 10px;
+    }
+
+    .aboutme-wrapper {
+        padding: 0;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .aboutme_title,
+    .offer-title,
+    .gallery-title {
+        padding: 70px 0 0 0;
+        font-size: 2.5rem;
+    }
+
+    .aboutme_p,
+    .offer-p,
+    .gallery_p {
+        padding: 0;
+    }
+
+    .aboutme_img {
+        width: 95vw;
+        height: 300px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+
+    .img_text {
+        padding: 30 0 5px 0;
+        margin: 0 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+    }
+
+    .aboutme_info {
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 1.1rem;
+    }
+
+    .aboutme_info h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .offer-wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .offer_img {
+        width: 90vw;
+        height: 250px;
+    }
+
+    #accordion {
+        width: 90vw;
+        margin: 30px 0;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .card-header {
+        height: 50px;
+    }
+
+    .card-link p {
+        font-size: 1rem;
+    }
+
+    .swiper-container {
+        height: auto;
+        width: 90%;
+    }
+
+    .gallery-more {
+        width: 150px;
+        height: 40px;
+        margin: 50px auto;
+    }
+
+    .contact_header_wrapper {
+        top: 80px;
+        width: 90vw;
+        height: 170px;
+    }
+
+    .contact-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .contact-wrapper p {
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .contact-wrapper i {
+        font-size: 3rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container-gallery {
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+    .tiles {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .tiles-img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .container {
+        width: 100vw;
+        margin-bottom: 50px;
+    }
+
+    .img-fluid {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .container_page {
+        width: 100vw;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding: 5px 20px;
+    }
+
+    #home {
+        height: 100vh;
+    }
+
+    .icon-box {
+        top: 16px;
+    }
+
+    .icon-box i {
+        font-size: 30px;
+    }
+
+    .img-logo {
+        top: 65px;
+        right: 50%;
+        transform: translateX(50%);
+        height: 70vh;
+        width: 70vw;
+        padding-bottom: 20px;
+    }
+
+    .header-title {
+        width: 70vw;
+        font-size: 1.6rem;
+        top: 85vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .aboutme_title,
+    .offer-title,
+    .gallery-title {
+        font-size: 2.5rem;
+        padding: 70px 0 0 0;
+    }
+
+    .aboutme_p,
+    .offer-p,
+    .gallery_p {
+        padding: 0;
+    }
+
+    .aboutme-wrapper {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 30px;
+    }
+
+    .aboutme_img {
+        width: 80vw;
+        height: 90vh;
+        margin-bottom: 30px;
+    }
+
+    .img_text {
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+        margin: 0 20px;
+    }
+
+    .aboutme_info {
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .aboutme_info h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .offer-wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+        margin: 0 100px;
+    }
+
+    .offer_img {
+        width: 80vw;
+        height: auto;
+    }
+
+    #accordion {
+        width: 80vw;
+        margin: 20px 0;
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+
+    .card-header {
+        height: 50px;
+    }
+
+    .card-link p {
+        font-size: 1rem;
+    }
+
+    .swiper-container {
+        height: 60vh;
+        width: 95vw;
+    }
+
+    .gallery-more {
+        width: 150px;
+        height: 40px;
+        margin: 50px auto;
+    }
+
+
+    .contact_header_wrapper {
+        top: 80px;
+        width: 90vw;
+        height: 130px;
+    }
+
+    .contact-wrapper h1 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .contact-wrapper p {
+        font-size: 1.2rem;
+    }
+
+    .contact-wrapper i {
+        font-size: 3rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .container-gallery {
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+    .tiles {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .tiles-img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .container {
+        width: 100vw;
+        margin-bottom: 50px;
+    }
+
+    .img-fluid {
+        margin-bottom: 20px;
+    }
+
+    .container_page {
+        width: 100vw;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding: 5px 20px;
+    }
+
+    #home {
+        height: 400px;
+    }
+
+    .icon-box {
+        top: 6px;
+    }
+
+    .icon-box i {
+        font-size: 30px;
+    }
+
+    .logo-wrapper {
+        height: auto;
+    }
+
+    .img-logo {
+        top: 65px;
+        right: 50%;
+        right: 20px;
+        height: auto;
+        max-height: 350px;
+        width: 55%;
+        padding-bottom: 20px;
+    }
+
+    .header-title {
+        left: 20px;
+        font-size: 1.8rem;
+        width: 40%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .aboutme_title,
+    .offer-title,
+    .gallery-title {
+        font-size: 3rem;
+        padding: 70px 0 0 0;
+    }
+
+    .aboutme_p,
+    .offer-p,
+    .gallery_p {
+        padding: 0;
+    }
+
+    .aboutme-wrapper {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 50px;
+    }
+
+    .aboutme_img {
+        width: 80vw;
+        height: 400px;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+
+    .img_text {
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        margin: 0 20px;
+        padding: 40px 5px 20px 5px;
+    }
+
+    .aboutme_info {
+        margin: 0;
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .aboutme_info h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .offer-wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 0 0 50px 0;
+    }
+
+    .offer_img {
+        width: 600px;
+        height: 400px;
+    }
+
+
+    .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .card-header {
+        height: 50px;
+    }
+
+    .card-link p {
+        font-size: 1rem;
+    }
+
+    .gallery_p {
+        padding-bottom: 30px;
+    }
+
+    .gallery-wrapper {
+        margin: 0;
+    }
+
+    .swiper-container {
+        height: 350px;
+        width: 90vw;
+    }
+
+    .gallery-more {
+        width: 150px;
+        height: 40px;
+        margin: 50px auto;
+    }
+
+    .contact_header_wrapper {
+        top: 80px;
+        width: 90vw;
+        height: 130px;
+    }
+
+    .contact-wrapper h1 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .contact-wrapper p {
+        font-size: 1.2rem;
+    }
+
+    .contact-wrapper i {
+        margin-top: 100px;
+        font-size: 3rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .container-gallery {
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+    .tiles {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .tiles-img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .container {
+        width: 100vw;
+        margin-bottom: 50px;
+    }
+
+    .img-fluid {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding: 5px 20px;
+    }
+    .container_page {
+        width: 100vw;
+    }
+
+    #home {
+        height: 350px;
+
+    }
+
+    .icon-box i {
+        font-size: 30px;
+    }
+
+
+    .img-logo {
+        top: 65px;
+        right: 30px;
+        height: 70%;
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .header-title {
+        width: 40%;
+        font-size: 1.8rem;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+        font-size: 2rem;
+    }
+
+    .aboutme_title,
+    .offer-title,
+    .gallery-title {
+        font-size: 3rem;
+        padding: 70px 0 0 0;
+    }
+
+    .aboutme_p,
+    .offer-p,
+    .gallery_p {
+        font-size: 1.1rem;
+    }
+
+    .aboutme-wrapper {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 0;
+    }
+
+    .aboutme_img {
+        width: 80vw;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .img_text {
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        margin: 0 20px;
+        padding: 40px 5px 20px 5px;
+    }
+
+    .aboutme_info {
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .aboutme_info h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .aboutme_info p {
+        font-size: 1.1rem;
+        padding: 20px;
+    }
+
+    .offer-wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .offer-p {
+        padding: 0;
+    }
+
+    .offer_img {
+        width: 600px;
+        height: 450px;
+    }
+
+    .card {
+
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .card-header {
+        height: 50px;
+    }
+
+    .card-link p {
+        font-size: 1.1rem;
+    }
+
+    .card-body_p {
+        font-size: 1.1rem;
+    }
+
+    .gallery-wrapper {
+        margin: 0;
+    }
+
+    .swiper-container {
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .gallery-more {
+        width: 150px;
+        height: 40px;
+        margin: 50px auto;
+    }
+
+    .contact_header_wrapper {
+        top: 80px;
+        width: 90vw;
+        height: 150px;
+    }
+
+    .contact-wrapper h1 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .contact-wrapper p {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .contact-wrapper i {
+        font-size: 3rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+}
+
